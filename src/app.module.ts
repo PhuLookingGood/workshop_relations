@@ -11,11 +11,11 @@ import { Option } from './options/entities/option.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 22341,
-      database: 'app_carDB',
-      username: 'postgres',
-      password: 'admin1234',
+      host: '...',
+      port: 1111111,
+      database: 'app_db',
+      username: '....',
+      password: '...',
       entities: [Car, Option],
       synchronize: true,
     }),
